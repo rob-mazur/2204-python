@@ -10,4 +10,4 @@ python:
   - 3.10
   - nightly
 script:
-  - python --version
+  - python ./hello.py
