@@ -1,0 +1,13 @@
+dist: jammy
+group: dev
+language: python
+arch:
+  - amd64
+  - arm64
+python:
+  - 3.8
+  - 3.9
+  - 3.10
+  - nightly
+script:
+  - python --version
