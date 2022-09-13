@@ -1,11 +1,7 @@
-dist: jammy
-group: dev
+dist: xenial
+group: edge
 language: python
-python:
-  - 3.8
-  - 3.9
-  - 3.10
-  - nightly
+
 script:
   - python --version
   - python ./hello.py
